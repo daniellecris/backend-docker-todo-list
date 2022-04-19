@@ -1,6 +1,6 @@
 FROM node:14-alpine
 
-WORKDIR ./docker/todo-app/back-end/
+WORKDIR ./todo-app/back-end/
 
 COPY package*.json ./
 
