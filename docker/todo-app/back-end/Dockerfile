@@ -1,10 +1,10 @@
 FROM node:14-alpine
 
-WORKDIR ./todo-app/back-end/
+WORKDIR /
 
 COPY package*.json ./
 
-RUN npm install
+RUN npm install -s
 
 COPY . .
 
